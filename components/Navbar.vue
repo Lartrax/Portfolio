@@ -1,22 +1,16 @@
 <template>
-  <!--<div class="fixed">-->
-    <div class="flex flex-row mx-20 w-full rounded-b-3xl h-full shadow">
-      <div class="flex items-center">
-        <button class="mx-5" onclick="history.back()">
-          <img src="~~/assets/icons/arrowBack.svg" alt="arrow back" />
-        </button>
-        <a class="mx-5" href="/"><img src="~/assets/img/LE.png" /></a>
-        <button class="mx-5" onclick="history.forward()">
-          <img src="~~/assets/icons/arrowForward.svg" alt="arrow forward" />
-        </button>
-      </div>
-      <div class="flex justify-end items-center w-full">
-        <p class="mx-5">Navbar</p>
-        <p class="mx-5">Navbar</p>
-        <p class="mx-5">Navbar</p>
-      </div>
+  <div class="flex flex-col xs:flex-row mx-20 w-full rounded-b-3xl h-full shadow bg-white">
+    <div class="flex justify-center items-center">
+      <button class="mx-1 p-4 text-4xl" onclick="history.back()">&lt;</button>
+      <a class="mx-1 p-4 pt-5 text-3xl" href="/">LE</a>
+      <button class="mx-1 p-4 text-4xl" onclick="history.forward()">&gt;</button>
     </div>
-  <!--</div>-->
+    <div class="flex flex-col justify-end items-center w-full md:flex-row mb-1 md:mb-0">
+      <p class="mx-1 px-4">Navbar</p>
+      <p class="mx-1 px-4">Navbar</p>
+      <p class="mx-1 px-4">Navbar</p>
+    </div>
+  </div>
 </template>
 
 <script>

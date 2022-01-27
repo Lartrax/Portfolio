@@ -1,7 +1,7 @@
 <template>
   <v-app class="app">
     <div>
-      <div class="flex justify-center w-full h-20 items-center sticky">
+      <div class="flex justify-center w-full xs:h-20 h-40 items-center fixed">
         <Navbar />
       </div>
       <div class="flex justify-center w-full h-screen">
