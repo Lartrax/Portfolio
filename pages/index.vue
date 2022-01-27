@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <QuickMenu/>
 </template>
 
 <script lang="ts">
