@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center flex-col mt-48 xs:mt-40 w-80 h-full">
+  <div class="flex items-center flex-col w-80 h-full">
     <h1><b>Quick links</b></h1>
     <nuxt-link to="/CurriculumVitae">
       <div
