@@ -24,11 +24,11 @@ module.exports = {
     },
     colors: {
       "orange-light": "#ff955f",
-      "orange-dark": "",
+      "orange-dark": "#CC774D",
       "green-light": "#a6c64c",
-      "green-dark": "",
+      "green-dark": "#7B9138",
       "blue-light": "#86c6be",
-      "blue-dark": "",
+      "blue-dark": "#62918B",
     },
   },
   variants: {

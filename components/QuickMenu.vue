@@ -3,21 +3,21 @@
     <h1><b>Quick links</b></h1>
     <nuxt-link to="/CurriculumVitae">
       <div
-        class="flex justify-center items-center mb-5 mt-10 px-5 w-full h-14 rounded-full bg-orange-light shadow-pop-tl1"
+        class="flex justify-center items-center mb-5 mt-10 px-5 w-full h-14 rounded-full bg-orange-light hover:bg-orange-dark shadow-pop-tl1"
       >
         Curriculum Vitae
       </div>
     </nuxt-link>
     <nuxt-link to="/Projects">
       <div
-        class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-green-light shadow-pop-tl2"
+        class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-green-light hover:bg-green-dark shadow-pop-tl2"
       >
         Projects
       </div>
     </nuxt-link>
     <nuxt-link to="/Downloads">
       <div
-        class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-blue-light shadow-pop-tl3"
+        class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-blue-light hover:bg-blue-dark shadow-pop-tl3"
       >
         Downloads
       </div>
@@ -31,19 +31,19 @@ export default {};
 
 <style>
 .shadow-pop-tl1 {
-  -webkit-animation: shadow-pop-tl 100ms cubic-bezier(0.47, 0, 0.745, 0.715)
-    300ms both;
-  animation: shadow-pop-tl 100ms cubic-bezier(0.47, 0, 0.745, 0.715) 300ms both;
+  -webkit-animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715)
+    400ms both;
+  animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 400ms both;
 }
 .shadow-pop-tl2 {
-  -webkit-animation: shadow-pop-tl 100ms cubic-bezier(0.47, 0, 0.745, 0.715)
-    350ms both;
-  animation: shadow-pop-tl 100ms cubic-bezier(0.47, 0, 0.745, 0.715) 350ms both;
+  -webkit-animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715)
+    500ms both;
+  animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 500ms both;
 }
 .shadow-pop-tl3 {
-  -webkit-animation: shadow-pop-tl 100ms cubic-bezier(0.47, 0, 0.745, 0.715)
-    400ms both;
-  animation: shadow-pop-tl 100ms cubic-bezier(0.47, 0, 0.745, 0.715) 400ms both;
+  -webkit-animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715)
+    600ms both;
+  animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 600ms both;
 }
 
 @-webkit-keyframes shadow-pop-tl {
