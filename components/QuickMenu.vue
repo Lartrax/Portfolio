@@ -3,21 +3,21 @@
     <h1><b>Quick links</b></h1>
     <nuxt-link to="/CurriculumVitae">
       <div
-        class="flex justify-center items-center mb-5 mt-10 px-5 w-full h-14 rounded-full bg-white shadow-pop-tl1"
+        class="flex justify-center items-center mb-5 mt-10 px-5 w-full h-14 rounded-full bg-orange-light shadow-pop-tl1"
       >
         Curriculum Vitae
       </div>
     </nuxt-link>
     <nuxt-link to="/Projects">
       <div
-        class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-white shadow-pop-tl2"
+        class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-green-light shadow-pop-tl2"
       >
         Projects
       </div>
     </nuxt-link>
     <nuxt-link to="/Downloads">
       <div
-        class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-white shadow-pop-tl3"
+        class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-blue-light shadow-pop-tl3"
       >
         Downloads
       </div>
