@@ -11,8 +11,13 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Oxygen' }],
+    link: [
+      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css?family=Oxygen",
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -34,11 +39,15 @@ export default {
     "@nuxtjs/google-fonts",
   ],
 
+  target: "static",
+
+  ssr: false,
+
   googleFonts: {
     families: {
       Oxygen: [300, 500, 700],
-      }
     },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],
