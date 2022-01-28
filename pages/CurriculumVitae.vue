@@ -1,3 +1,3 @@
 <template>
-    <div>Curriculum Vitae</div>
+  <div>Curriculum Vitae</div>
 </template>
