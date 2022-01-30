@@ -22,6 +22,13 @@
         Downloads
       </div>
     </nuxt-link>
+    <nuxt-link to="/AboutMe">
+      <div
+        class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-yellow-light hover:bg-yellow-dark shadow-pop-tl4"
+      >
+        About me
+      </div>
+    </nuxt-link>
   </div>
 </template>
 
@@ -44,6 +51,11 @@ export default {};
   -webkit-animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715)
     600ms both;
   animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 600ms both;
+}
+.shadow-pop-tl4 {
+  -webkit-animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715)
+    700ms both;
+  animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 700ms both;
 }
 
 @-webkit-keyframes shadow-pop-tl {
@@ -80,8 +92,4 @@ export default {};
 }
 </style>
 
-<img
-      src="~/assets/img/placeHoldPers.png"
-      alt="person"
-      class="h-64 w-auto"
-    />
+<img src="~/assets/img/placeHoldPers.png" alt="person" class="h-64 w-auto" />
