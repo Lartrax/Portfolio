@@ -18,7 +18,7 @@ $ yarn generate
 ```
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8961e11e-c157-4297-acf3-61c126ac35b4/deploy-status)](https://app.netlify.com/sites/larserik/deploys)
 
-https://colorpalettes.net/color-palette-4013/ colours
+https://colorpalettes.net/color-palette-4013/ https://colorpalettes.net/color-palette-4322/ colours
 
 https://animista.net/ animate
 
