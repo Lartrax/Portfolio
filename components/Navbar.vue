@@ -25,8 +25,8 @@ export default {};
 
 <style>
 .slide-bottom {
-  -webkit-animation: slide-bottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-  animation: slide-bottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  -webkit-animation: slide-bottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms both;
+  animation: slide-bottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms  both;
 }
 
 @-webkit-keyframes slide-bottom {

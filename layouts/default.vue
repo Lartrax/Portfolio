@@ -1,6 +1,7 @@
 <template>
   <v-app class="app">
     <div>
+      <Background />
       <div class="flex justify-center w-full h-40 xs:h-20 items-center fixed">
         <Navbar />
       </div>
