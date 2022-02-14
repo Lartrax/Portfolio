@@ -2,7 +2,7 @@
   <v-app class="app">
     <div>
       <Background />
-      <div class="flex justify-center w-full h-40 xs:h-20 items-center fixed">
+      <div class="flex justify-center w-full h-56 xs:h-20 items-center fixed">
         <Navbar />
       </div>
       <div class="flex justify-center w-full h-full">
