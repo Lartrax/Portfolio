@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Unzippy",
+        "type": "AutoHotKey",
+        "desc": "",
+        "image": ""
+    },
+    {
+        "id": 2,
+        "title": "Color Picker",
+        "type": "AutoHotKey",
+        "desc": "",
+        "image": ""
+    },
+    {
+        "id": 3,
+        "title": "Camera Light",
+        "type": "AutoHotKey",
+        "desc": "",
+        "image": ""
+    }
+]
