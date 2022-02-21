@@ -4,20 +4,26 @@
         "title": "Unzippy",
         "type": "AutoHotKey",
         "desc": "",
-        "image": ""
+        "image": "",
+        "color": "bg-blue-light",
+        "accent": "bg-blue-dark"
     },
     {
         "id": 2,
         "title": "Color Picker",
         "type": "AutoHotKey",
         "desc": "",
-        "image": ""
+        "image": "",
+        "color": "bg-blue-light",
+        "accent": "bg-blue-dark"
     },
     {
         "id": 3,
         "title": "Camera Light",
         "type": "AutoHotKey",
         "desc": "",
-        "image": ""
+        "image": "",
+        "color": "bg-blue-light",
+        "accent": "bg-blue-dark"
     }
 ]

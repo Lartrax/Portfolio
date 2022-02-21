@@ -91,5 +91,3 @@ export default {};
   }
 }
 </style>
-
-<img src="~/assets/img/placeHoldPers.png" alt="person" class="h-64 w-auto" />
