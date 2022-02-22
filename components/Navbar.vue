@@ -26,13 +26,15 @@ export default {};
 </script>
 
 <style>
-.blurry {
-  opacity: 0.05;
-  transition: opacity 0.1s;
-}
+@media (min-width: 768px) {
+  .blurry {
+    opacity: 0.05;
+    transition: opacity 0.1s;
+  }
 
-.blurry:hover {
-  opacity: 1;
+  .blurry:hover {
+    opacity: 1;
+  }
 }
 
 .slide-bottom {
