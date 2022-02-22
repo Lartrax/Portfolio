@@ -31,7 +31,9 @@ module.exports = {
       "blue-dark": "#62918B",
       "yellow-light": "#efca66",
       "yellow-dark": "#E0BF6B",
-      "white": "#ffffff",
+      white: "#ffffff",
+      grey: "#e3e3e3",
+      black: "#212121",
     },
   },
   variants: {

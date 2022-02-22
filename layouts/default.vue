@@ -12,8 +12,37 @@
   </v-app>
 </template>
 
-<style scoped>
+<style>
 .app {
   font-family: "Oxygen", sans-serif;
+}
+
+p,
+a,
+svg,
+div,
+h1 {
+  color: #212121;
+  fill: #212121;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2.5mm;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3e3e3e;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(20, 20, 20, 50%);
 }
 </style>

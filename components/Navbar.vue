@@ -1,9 +1,11 @@
 <template>
   <div
-    class="flex flex-col xs:flex-row mx-20 w-full rounded-b-3xl h-full border-2 bg-white slide-bottom"
+    class="flex flex-col xs:flex-row mx-20 w-full rounded-b-3xl h-full border-2 border-black bg-white slide-bottom blurry"
   >
     <div class="flex justify-center items-center">
-      <button class="mx-1 p-4 text-4xl" onclick="history.back()">&lt;</button>
+      <button class="mx-1 p-4 text-4xl blur" onclick="history.back()">
+        &lt;
+      </button>
       <a class="mx-1 mb-5 p-4 pt-5 text-6xl" href="/">⌂</a>
       <button class="mx-1 p-4 text-4xl" onclick="history.forward()">
         &gt;
@@ -24,9 +26,19 @@ export default {};
 </script>
 
 <style>
+.blurry {
+  opacity: 0.05;
+  transition: opacity 0.1s;
+}
+
+.blurry:hover {
+  opacity: 1;
+}
+
 .slide-bottom {
-  -webkit-animation: slide-bottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms both;
-  animation: slide-bottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms  both;
+  -webkit-animation: slide-bottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    200ms both;
+  animation: slide-bottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 200ms both;
 }
 
 @-webkit-keyframes slide-bottom {
@@ -50,13 +62,3 @@ export default {};
   }
 }
 </style>
-<!--
-.navbartop {
-  top: -40rem;
-}
-
-@media (min-width: 500px) {
-  .navbartop {
-    top: -20rem;
-  }
-}
