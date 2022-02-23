@@ -6,7 +6,8 @@
         "desc": "",
         "image": "",
         "color": "bg-blue-light",
-        "accent": "bg-blue-dark"
+        "accent": "bg-blue-dark",
+        "download": ""
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "desc": "",
         "image": "",
         "color": "bg-blue-light",
-        "accent": "bg-blue-dark"
+        "accent": "bg-blue-dark",
+        "download": ""
     },
     {
         "id": 3,
@@ -24,6 +26,17 @@
         "desc": "",
         "image": "",
         "color": "bg-blue-light",
-        "accent": "bg-blue-dark"
+        "accent": "bg-blue-dark",
+        "download": ""
+    },
+    {
+        "id": 4,
+        "title": "YarnDev",
+        "type": "AutoHotKey",
+        "desc": "",
+        "image": "",
+        "color": "bg-blue-light",
+        "accent": "bg-blue-dark",
+        "download": ""
     }
 ]

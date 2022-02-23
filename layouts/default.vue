@@ -1,11 +1,11 @@
 <template>
   <v-app class="app">
     <div>
-      <Background />
-      <div class="flex justify-center w-full h-56 xs:h-20 items-center fixed">
+      <!--<Background />-->
+      <div class="flex justify-center w-full h-48 xs:h-20 items-center fixed z-50">
         <Navbar />
       </div>
-      <div class="flex justify-center w-full h-full">
+      <div class="flex justify-center w-full h-full z-0">
         <Nuxt class="mt-48 xs:mt-40" />
       </div>
     </div>

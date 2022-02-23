@@ -2,8 +2,7 @@
   <div
     class="flex flex-col xs:flex-row mx-20 w-full rounded-b-3xl h-full border-2 border-black bg-white slide-bottom blurry"
   >
-    <!--navbar needs fix ghosting-->
-    <div class="flex justify-center items-center">
+    <div class="flex justify-center items-center h-1/2 xs:h-auto">
       <button class="mx-1 p-4 text-4xl blur" onclick="history.back()">
         &lt;
       </button>
@@ -27,7 +26,7 @@ export default {};
 </script>
 
 <style>
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   .blurry {
     opacity: 0.05;
     transition: opacity 0.1s;
