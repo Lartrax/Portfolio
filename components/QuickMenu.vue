@@ -36,7 +36,7 @@
 export default {};
 </script>
 
-<style>
+<style scoped>
 .shadow-pop-tl1 {
   -webkit-animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715)
     400ms both;

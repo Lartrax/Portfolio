@@ -26,7 +26,7 @@ export default Vue.extend({
 });
 </script>
 
-<style>
+<style scoped>
 .shadow-pop-tl {
   -webkit-animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715)
     400ms both;
