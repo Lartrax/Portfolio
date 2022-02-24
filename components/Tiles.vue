@@ -2,14 +2,36 @@
   <div>
     <div v-for="data in tile" :key="data.id" class="flex flex-col">
       <div class="shadow-pop-tl p-10 m-10 rounded-3xl" :class="data.color">
-        <h2>{{ data.title }}</h2>
-        <a :href="data.download" target="_blank">
-          <div
-            class="rounded-full p-2 px-4 bg-green-light hover:bg-green-dark inline-block shadow-pop-tl1"
-          >
-            Download
+        <div class="flex flex-row place-content-between">
+          <h2>
+            <b>{{ data.title }}</b>
+          </h2>
+          <div class="flex flex-col">
+            <a :href="data.download" target="_blank">
+              <div
+                class="rounded-full p-2 px-4 bg-green-light hover:bg-green-dark inline-block shadow-pop-tl1 m-1"
+              >
+                Download
+              </div>
+            </a>
+            <a :href="data.source" target="_blank">
+              <div
+                class="rounded-full p-2 px-4 bg-orange-light hover:bg-orange-dark inline-block shadow-pop-tl1 m-1"
+              >
+                Source
+              </div>
+            </a>
           </div>
-        </a>
+        </div>
+        <div>
+          {{ data.desc1 }}
+          <br />
+          {{ data.desc2 }}
+          <br />
+          {{ data.desc3 }}
+          <br />
+          {{ data.desc4 }}
+        </div>
       </div>
     </div>
   </div>

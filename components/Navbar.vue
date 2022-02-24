@@ -28,7 +28,7 @@ export default {};
 <style>
 @media (min-width: 770px) {
   .blurry {
-    opacity: 0.05;
+    opacity: 0;
     transition: opacity 0.1s;
   }
 

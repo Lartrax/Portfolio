@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center flex-col w-80 h-full">
-    <h1><b>Quick links</b></h1>
+    <h1 class="text-3xl"><b>Quick links</b></h1>
     <nuxt-link to="/CurriculumVitae">
       <div
         class="flex justify-center items-center mb-5 mt-10 px-5 w-full h-14 rounded-full bg-orange-light hover:bg-orange-dark shadow-pop-tl1"
