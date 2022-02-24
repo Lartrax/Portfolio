@@ -3,11 +3,13 @@
     <div v-for="data in tile" :key="data.id" class="flex flex-col">
       <div class="shadow-pop-tl p-10 m-10 rounded-3xl" :class="data.color">
         <h2>{{ data.title }}</h2>
-        <div
-          class="rounded-full p-2 px-4 bg-green-light hover:bg-green-dark inline-block shadow-pop-tl1"
-        >
-          <a :href="data.download" target="_blank">Download</a>
-        </div>
+        <a :href="data.download" target="_blank">
+          <div
+            class="rounded-full p-2 px-4 bg-green-light hover:bg-green-dark inline-block shadow-pop-tl1"
+          >
+            Download
+          </div>
+        </a>
       </div>
     </div>
   </div>
