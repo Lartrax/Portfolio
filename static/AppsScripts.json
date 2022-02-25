@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Unzippy",
+        "type": "AutoHotKey",
+        "desc1": "A program to help with all of your unzipping needs!",
+        "desc2": "Unzippy runs in the background and scans for zip files in your downloads folder.",
+        "desc3": "When one is detected you get to choose whether you want to unzip it or blacklist it.",
+        "desc4": "After selecting yes you will be prompted about where to unzip it downloads, desktop, documents, pictures.",
+        "image": "",
+        "color": "bg-blue-light",
+        "accent": "bg-blue-dark",
+        "download": "https://github.com/Lartrax/Unzippy/releases/download/v1.1/UnzippyInstaller.exe",
+        "source": "https://github.com/Lartrax/Unzippy"
+    },
+    {
+        "id": 2,
+        "title": "Color Picker",
+        "type": "AutoHotKey",
+        "desc1": "A script that lets you pick colors all over your screen.",
+        "desc2": "Controls: Alt Will show what color the cursor is touching in hex format.",
+        "desc3": "Alt+c Will copy the current hex code.",
+        "desc4": "Alt+v Pastes the last copied hex code.",
+        "image": "",
+        "color": "bg-blue-light",
+        "accent": "bg-blue-dark",
+        "download": "https://github.com/Lartrax/ColorPicker/releases/download/v1.0/ColorPickerInstaller.exe",
+        "source": "https://github.com/Lartrax/ColorPicker"
+    },
+    {
+        "id": 3,
+        "title": "Camera Light",
+        "type": "AutoHotKey",
+        "desc1": "This programs purpose is to help your camera in dim or badly lit scenarios.",
+        "desc2": "The program displays a warm bright border on your main monitor/screen.",
+        "desc3": "Controls: type b m o d e (bmode) and the overlay will toggle on and off.",
+        "desc4": "Make sure that overlay.png is always in the same folder as CameraLight.exe.",
+        "image": "",
+        "color": "bg-blue-light",
+        "accent": "bg-blue-dark",
+        "download": "https://github.com/Lartrax/CameraLight/releases/download/v1.2/CameraLightInstaller.exe",
+        "source": "https://github.com/Lartrax/CameraLight"
+    },
+    {
+        "id": 4,
+        "title": "YarnDev",
+        "type": "AutoHotKey",
+        "desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "desc2": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "desc3": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "desc4": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image": "",
+        "color": "bg-blue-light",
+        "accent": "bg-blue-dark",
+        "download": "https://github.com/Lartrax/YarnDev/releases/download/v1.0/YarnDevInstaller.exe",
+        "source": "https://github.com/Lartrax/YarnDev"
+    }
+]

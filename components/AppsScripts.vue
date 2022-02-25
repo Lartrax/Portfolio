@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <div v-for="data in tile" :key="data.id" class="flex flex-col">
-      <div class="shadow-pop-tl p-10 m-10 rounded-3xl" :class="data.color">
+  <div class="flex flex-row flex-wrap justify-start">
+    <div v-for="data in tile" :key="data.id">
+      <div class="shadow-pop-tl p-10 m-10 rounded-3xl w-96" :class="data.color">
         <div class="flex flex-row place-content-between">
           <h2>
             <b>{{ data.title }}</b>
+            <br>
+            Code: {{ data.type }}
           </h2>
           <div class="flex flex-col">
             <a :href="data.download" target="_blank">
@@ -39,7 +41,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import tileData from "../static/tiles.json";
+import tileData from "../static/AppsScripts.json";
 export default Vue.extend({
   name: "tiles",
   data() {

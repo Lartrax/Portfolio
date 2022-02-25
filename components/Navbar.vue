@@ -26,7 +26,8 @@ export default {};
 </script>
 
 <style>
-@media (min-width: 770px) {
+/*
+@media (min-width: 769px) {
   .blurry {
     opacity: 0;
     transition: opacity 0.1s;
@@ -36,7 +37,7 @@ export default {};
     opacity: 1;
   }
 }
-
+*/
 .slide-bottom {
   -webkit-animation: slide-bottom 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     200ms both;

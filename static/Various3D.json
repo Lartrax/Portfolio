@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "title": "Unzippy",
-        "type": "AutoHotKey",
+        "title": "BlaBlaBla",
+        "type": "Blender",
         "desc1": "A program to help with all of your unzipping needs!",
         "desc2": "Unzippy runs in the background and scans for zip files in your downloads folder.",
         "desc3": "When one is detected you get to choose whether you want to unzip it or blacklist it.",
@@ -15,8 +15,8 @@
     },
     {
         "id": 2,
-        "title": "Color Picker",
-        "type": "AutoHotKey",
+        "title": "Hmmm",
+        "type": "Tinkercad",
         "desc1": "A script that lets you pick colors all over your screen.",
         "desc2": "Controls: Alt Will show what color the cursor is touching in hex format.",
         "desc3": "Alt+c Will copy the current hex code.",
@@ -29,8 +29,8 @@
     },
     {
         "id": 3,
-        "title": "Camera Light",
-        "type": "AutoHotKey",
+        "title": "Video",
+        "type": "Blender",
         "desc1": "This programs purpose is to help your camera in dim or badly lit scenarios.",
         "desc2": "The program displays a warm bright border on your main monitor/screen.",
         "desc3": "Controls: type b m o d e (bmode) and the overlay will toggle on and off.",
@@ -43,9 +43,12 @@
     },
     {
         "id": 4,
-        "title": "YarnDev",
-        "type": "AutoHotKey",
-        "desc1": "",
+        "title": "Model",
+        "type": "Fusion 360",
+        "desc1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "desc2": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "desc3": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "desc4": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
         "image": "",
         "color": "bg-blue-light",
         "accent": "bg-blue-dark",

@@ -1,8 +1,19 @@
 <template>
   <div class="w-full m-20">
     <h1 class="text-3xl ml-10"><b>Downloads</b></h1>
-    <div class="w-full lg:w-1/2">
-      <Tiles />
+    <div class="flex flex-col md:flex-row text-lg">
+      <div class="flex flex-col w-1/2">
+        <h2 class="ml-10">Apps/scripts</h2>
+        <div>
+          <AppsScripts />
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <h2 class="ml-10">Various 3D</h2>
+        <div>
+          <Various3D />
+        </div>
+      </div>
     </div>
   </div>
 </template>

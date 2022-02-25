@@ -1,12 +1,17 @@
 <template>
-  <v-app class="app">
+  <v-app id="top" class="app">
     <div>
       <!--<Background />-->
-      <div class="flex justify-center w-full h-48 xs:h-20 items-center fixed z-50">
+      <div
+        class="flex justify-center w-full h-48 xs:h-20 items-center md:fixed z-50"
+      >
         <Navbar />
       </div>
-      <div class="flex justify-center w-full h-full z-0">
-        <Nuxt class="mt-48 xs:mt-40" />
+      <div class="flex justify-center w-full z-0">
+        <Nuxt class="mt-20 md:mt-40" />
+      </div>
+      <div class="fixed w-full bottom-1">
+        <ToTop />
       </div>
     </div>
   </v-app>
