@@ -3,7 +3,7 @@
     <div>
       <!--<Background />-->
       <div
-        class="flex justify-center w-full h-48 xs:h-20 items-center md:fixed z-50"
+        class="flex justify-center w-full h-48 xs:h-20 items-center md:fixed z-20"
       >
         <Navbar />
       </div>
@@ -33,7 +33,7 @@ h1 {
 
 /* width */
 ::-webkit-scrollbar {
-  width: 2.5mm;
+  width: 0mm;
 }
 
 /* Track */
@@ -43,11 +43,11 @@ h1 {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #3e3e3e;
+  background: transparent;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(20, 20, 20, 50%);
+  background: transparent;
 }
 </style>

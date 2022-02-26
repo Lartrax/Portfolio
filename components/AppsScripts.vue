@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row flex-wrap justify-start">
     <div v-for="data in tile" :key="data.id">
-      <div class="shadow-pop-tl p-10 m-10 rounded-3xl w-96" :class="data.color">
+      <div class="shadow-pop-tl p-10 m-10 rounded-3xl h-96 md:w-96 overflow-scroll" :class="data.color">
         <div class="flex flex-row place-content-between">
           <h2>
             <b>{{ data.title }}</b>

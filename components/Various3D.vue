@@ -1,11 +1,19 @@
 <template>
   <div class="flex flex-row flex-wrap justify-start">
     <div v-for="data in tile" :key="data.id">
-      <div class="shadow-pop-tl p-10 m-10 rounded-3xl w-96" :class="data.color">
+      <div
+        v-if="!data.id"
+        class="fixed w-full h-full top-10 bottom-10 left-10 right-10 z-50 bg-black"
+        @click="data.id = !data.id"
+      ></div>
+      <div
+        class="shadow-pop-tl p-10 m-10 rounded-3xl h-96 md:w-96 overflow-scroll"
+        :class="data.color"
+      >
         <div class="flex flex-row place-content-between">
           <h2>
             <b>{{ data.title }}</b>
-            <br>
+            <br />
             Program: {{ data.type }}
           </h2>
           <div class="flex flex-col">
@@ -16,13 +24,13 @@
                 Download
               </div>
             </a>
-            <a :href="data.source" target="_blank">
+            <button @click="data.id = !data.id">
               <div
-                class="rounded-full p-2 px-4 bg-orange-light hover:bg-orange-dark inline-block shadow-pop-tl1 m-1"
+                class="rounded-full p-2 px-4 bg-yellow-light hover:bg-yellow-dark inline-block shadow-pop-tl1 m-1"
               >
-                Source
+                Preview
               </div>
-            </a>
+            </button>
           </div>
         </div>
         <div>

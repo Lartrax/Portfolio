@@ -10,8 +10,7 @@
         "image": "",
         "color": "bg-blue-light",
         "accent": "bg-blue-dark",
-        "download": "https://github.com/Lartrax/Unzippy/releases/download/v1.1/UnzippyInstaller.exe",
-        "source": "https://github.com/Lartrax/Unzippy"
+        "download": "https://github.com/Lartrax/Unzippy/releases/download/v1.1/UnzippyInstaller.exe"
     },
     {
         "id": 2,
@@ -24,8 +23,7 @@
         "image": "",
         "color": "bg-blue-light",
         "accent": "bg-blue-dark",
-        "download": "https://github.com/Lartrax/ColorPicker/releases/download/v1.0/ColorPickerInstaller.exe",
-        "source": "https://github.com/Lartrax/ColorPicker"
+        "download": "https://github.com/Lartrax/ColorPicker/releases/download/v1.0/ColorPickerInstaller.exe"
     },
     {
         "id": 3,
@@ -38,8 +36,7 @@
         "image": "",
         "color": "bg-blue-light",
         "accent": "bg-blue-dark",
-        "download": "https://github.com/Lartrax/CameraLight/releases/download/v1.2/CameraLightInstaller.exe",
-        "source": "https://github.com/Lartrax/CameraLight"
+        "download": "https://github.com/Lartrax/CameraLight/releases/download/v1.2/CameraLightInstaller.exe"
     },
     {
         "id": 4,
@@ -52,7 +49,6 @@
         "image": "",
         "color": "bg-blue-light",
         "accent": "bg-blue-dark",
-        "download": "https://github.com/Lartrax/YarnDev/releases/download/v1.0/YarnDevInstaller.exe",
-        "source": "https://github.com/Lartrax/YarnDev"
+        "download": "https://github.com/Lartrax/YarnDev/releases/download/v1.0/YarnDevInstaller.exe"
     }
 ]

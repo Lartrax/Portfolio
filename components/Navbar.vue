@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col xs:flex-row mx-20 w-full rounded-b-3xl h-full border-2 border-black bg-white slide-bottom blurry"
+    class="flex flex-col xs:flex-row mx-10 md:mx-20 w-full rounded-b-3xl h-full border-2 border-black bg-white slide-bottom blurry"
   >
     <div class="flex justify-center items-center h-1/2 xs:h-auto">
       <button class="mx-1 p-4 text-4xl blur" onclick="history.back()">
