@@ -1,18 +1,5 @@
 <template>
   <div class="flex flex-row flex-wrap justify-start">
-    <script
-      type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
-    ></script>
-    <model-viewer
-      id="reveal"
-      loading="eager"
-      camera-controls
-      auto-rotate
-      poster=""
-      src="../assets\glTF\NeilArmstrong.glb"
-      alt="A 3D model of a shishkebab"
-    ></model-viewer>
     <div v-for="data in tile" :key="data.id">
       <div
         v-if="!data.id"
