@@ -5,7 +5,7 @@
         v-if="!data.id"
         class="fixed w-full h-full top-10 bottom-10 left-10 right-10 z-50 bg-black"
         @click="data.id = !data.id"
-      ></div>
+      ><TreD /></div>
       <div
         class="shadow-pop-tl p-10 m-10 rounded-3xl h-96 md:w-96 overflow-scroll"
         :class="data.color"
@@ -49,8 +49,10 @@
 
 <script lang="ts">
 import Vue from "vue";
+import TreD from "~/pages/TreD.vue";
 import tileData from "../static/Various3D.json";
 export default Vue.extend({
+  components: { TreD },
   name: "tiles",
   data() {
     return {

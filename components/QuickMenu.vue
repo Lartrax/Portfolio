@@ -15,6 +15,13 @@
         Projects
       </div>
     </nuxt-link>
+    <nuxt-link to="/Sor-Sudan">
+      <div
+        class="flex justify-center items-center my-5 px-5 w-80 h-80 rounded-full bg-white shadow-2xl hover:shadow-lg font-extrabold text-5xl slide-right-left"
+      >
+        Sør-Sudan
+      </div>
+    </nuxt-link>
     <nuxt-link to="/Downloads">
       <div
         class="flex justify-center items-center my-5 px-5 w-full h-14 rounded-full bg-blue-light hover:bg-blue-dark shadow-pop-tl3"
@@ -37,6 +44,10 @@ export default {};
 </script>
 
 <style scoped>
+.slide-right-left {
+	-webkit-animation: slide-right-left 2s linear both infinite;
+	        animation: slide-right-left 2s linear both infinite;
+}
 .shadow-pop-tl1 {
   -webkit-animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715)
     400ms both;
@@ -57,7 +68,50 @@ export default {};
     700ms both;
   animation: shadow-pop-tl 200ms cubic-bezier(0.47, 0, 0.745, 0.715) 700ms both;
 }
-
+@-webkit-keyframes slide-right-left {
+  0% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+  25% {
+    -webkit-transform: translateX(2000px);
+            transform: translateX(2000px);
+  }
+  50% {
+    -webkit-transform: translateX(2000px);
+            transform: translateX(2000px);
+  }
+  75% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+  100% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+}
+@keyframes slide-right-left {
+  0% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+  25% {
+    -webkit-transform: translateX(2000px);
+            transform: translateX(2000px);
+  }
+  50% {
+    -webkit-transform: translateX(2000px);
+            transform: translateX(2000px);
+  }
+  75% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+  100% {
+    -webkit-transform: translateX(-2000px);
+            transform: translateX(-2000px);
+  }
+}
 @-webkit-keyframes shadow-pop-tl {
   0% {
     -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
