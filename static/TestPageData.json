@@ -1,0 +1,259 @@
+[
+    {
+        "id": 1,
+        "childof": null,
+        "title": "Computer"
+    },
+        {
+            "id": 1.1,
+            "childof": 1,
+            "title": "Motherboard"
+        },
+            {
+                "id": 1.11,
+                "childof": 1.1,
+                "title": "CentralProcessingUnit"
+            },
+                {
+                    "id": 1.111,
+                    "childof": 1.11,
+                    "title": "Water cooler"
+                },
+                    {
+                        "id": 1.1111,
+                        "childof": 1.111,
+                        "title": "Water"
+                    },
+                    {
+                        "id": 1.1112,
+                        "childof": 1.111,
+                        "title": "Cooler"
+                    },
+            {
+                "id": 1.12,
+                "childof": 1.1,
+                "title": "Graphics Card"
+            },
+            
+            {
+                "id": 1.13,
+                "childof": 1.1,
+                "title": "RandomAccessMemory"
+            },
+        {
+            "id": 1.2,
+            "childof": 1,
+            "title": "Case"
+        },
+            {
+                "id": 1.21,
+                "childof": 1.2,
+                "title": "Fans"
+            },
+        {
+            "id": 1.3,
+            "childof": 1,
+            "title": "Power Supply"
+        },
+    {
+        "id": 2,
+        "childof": null,
+        "title": "Kitchen"
+    },
+        {
+            "id": 2.1,
+            "childof": 2,
+            "title": "Fridge"
+        },
+            {
+                "id": 2.11,
+                "childof": 2.1,
+                "title": "Butter"
+            },
+            {
+                "id": 2.12,
+                "childof": 2.1,
+                "title": "Milk"
+            },
+            {
+                "id": 2.13,
+                "childof": 2.1,
+                "title": "Giraffe"
+            },
+        {
+            "id": 2.2,
+            "childof": 2,
+            "title": "Cabinet"
+        },
+            {
+                "id": 2.21,
+                "childof": 2.2,
+                "title": "Cup"
+            },
+            {
+                "id": 2.22,
+                "childof": 2.2,
+                "title": "Plate"
+            },
+    {
+        "id": 3,
+        "childof": null,
+        "title": "Toolbox"
+    },
+        {
+            "id": 3.1,
+            "childof": 3,
+            "title": "Screwdriver"
+        },
+        {
+            "id": 3.2,
+            "childof": 3,
+            "title": "Hammer"
+        },
+        {
+            "id": 3.3,
+            "childof": 3,
+            "title": "Box"
+        },
+            {
+                "id": 3.31,
+                "childof": 3.3,
+                "title": "Screw"
+            },
+            {
+                "id": 3.32,
+                "childof": 3.3,
+                "title": "Nut"
+            },
+            {
+                "id": 3.33,
+                "childof": 3.3,
+                "title": "4 deciliters of air"
+            },
+                {
+                    "id": 3.331,
+                    "childof": 3.33,
+                    "title": "Kummlokk"
+                },
+                    {
+                        "id": 3.3311,
+                        "childof": 3.331,
+                        "title": "Kumm"
+                    },
+                        {
+                            "id": 3.33111,
+                            "childof": 3.3311,
+                            "title": "Kloakk"
+                        },
+                            {
+                                "id": 3.331111,
+                                "childof": 3.33111,
+                                "title": "Klo"
+                            },
+                            {
+                                "id": 3.331112,
+                                "childof": 3.33111,
+                                "title": "Akk"
+                            },
+                            {
+                                "id": 3.331113,
+                                "childof": 3.33111,
+                                "title": "Rotte"
+                            },
+                                {
+                                    "id": 3.3311131,
+                                    "childof": 3.331113,
+                                    "title": "Chis"
+                                },
+                                    {
+                                        "id": 3.33111311,
+                                        "childof": 3.3311131,
+                                        "title": "Hål"
+                                    },
+                                        {
+                                            "id": 3.331113111,
+                                            "childof": 3.33111311,
+                                            "title": "Baketeriår"
+                                        },
+                                            {
+                                                "id": 3.3311131111,
+                                                "childof": 3.331113111,
+                                                "title": "Aton"
+                                            },
+                                                {
+                                                    "id": 3.3311131111,
+                                                    "childof": 3.331113111,
+                                                    "title": "kvarg"
+                                                },
+                                                    {
+                                                        "id": 3.33111311111,
+                                                        "childof": 3.331113111,
+                                                        "title": "Åp"
+                                                    },
+                                                    {
+                                                        "id": 3.33111311112,
+                                                        "childof": 3.331113111,
+                                                        "title": "Ner"
+                                                    },
+                                                        {
+                                                            "id": 3.331113111121,
+                                                            "childof": 3.3311131112,
+                                                            "title": "Plankar"
+                                                        },
+                                                            {
+                                                                "id": 3.3311131111211,
+                                                                "childof": 3.33111311121,
+                                                                "title": "Watt"
+                                                            },
+                                                            {
+                                                                "id": 3.3311131111212,
+                                                                "childof": 3.33111311121,
+                                                                "title": "Voldt"
+                                                            },
+                                                            {
+                                                                "id": 3.3311131111213,
+                                                                "childof": 3.33111311121,
+                                                                "title": "Han Per"
+                                                            },
+                                                            {
+                                                                "id": 3.3311131111214,
+                                                                "childof": 3.33111311121,
+                                                                "title": "1. far i huset"
+                                                            },
+                                                                {
+                                                                    "id": 3.33111311112141,
+                                                                    "childof": 3.331113111214,
+                                                                    "title": "2. far i huset"
+                                                                },
+                                                                    {
+                                                                        "id": 3.331113111121411,
+                                                                        "childof": 3.3311131112141,
+                                                                        "title": "3. far i huset"
+                                                                    },
+                                                                        {
+                                                                            "id": 3.3311131111214111,
+                                                                            "childof": 3.33111311121411,
+                                                                            "title": "4. far i huset"
+                                                                        },
+                                                                            {
+                                                                                "id": 3.33111311112141111,
+                                                                                "childof": 3.331113111214111,
+                                                                                "title": "5. far i huset"
+                                                                            },
+                                                                                {
+                                                                                    "id": 3.331113111121411111,
+                                                                                    "childof": 3.3311131112141111,
+                                                                                    "title": "6. far i huset"
+                                                                                },
+                                                                                    {
+                                                                                        "id": 3.3311131111214111111,
+                                                                                        "childof": 3.33111311121411111,
+                                                                                        "title": "7. far i huset"
+                                                                                    },
+                                                            
+                    {
+                        "id": 3.3312,
+                        "childof": 3.331,
+                        "title": "Lokk"
+                    }
+]
